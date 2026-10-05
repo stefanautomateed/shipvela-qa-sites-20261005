@@ -1,0 +1,1 @@
+import React from 'react';import{createRoot}from'react-dom/client';createRoot(document.getElementById('root')).render(<main style={{fontFamily:'system-ui',padding:'10vw'}}><h1>Shipvela React QA</h1><p>SPA route: {location.pathname}</p><a href='/deep/route'>Open deep route</a><p>Public environment: {import.meta.env.VITE_QA_LABEL||'not set'}</p></main>);

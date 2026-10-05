@@ -1,0 +1,13 @@
+{
+  "name": "shipvela-qa",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vite": "8.1.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  }
+}
