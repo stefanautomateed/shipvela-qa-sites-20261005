@@ -1,0 +1,11 @@
+{
+  "name": "shipvela-qa",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node -e \"console.error('QA deliberate build failure');process.exit(1)\""
+  },
+  "dependencies": {
+    "vite": "8.1.0"
+  }
+}
