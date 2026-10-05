@@ -1,0 +1,1 @@
+export const dynamic="force-dynamic";export function GET(){return Response.json({ok:true,generatedAt:new Date().toISOString(),hasSecret:!!process.env.QA_SERVER_SECRET})}

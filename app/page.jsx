@@ -1,0 +1,1 @@
+export const dynamic="force-dynamic";export default function Page(){return <main><h1>Shipvela SSR QA</h1><p>Generated: {new Date().toISOString()}</p><p>Server secret present: {process.env.QA_SERVER_SECRET?"yes":"no"}</p></main>}

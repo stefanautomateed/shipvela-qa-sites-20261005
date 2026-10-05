@@ -1,0 +1,1 @@
+export default function Layout({children}){return <html lang="en"><body style={{fontFamily:"system-ui",padding:"10vw"}}>{children}</body></html>}
