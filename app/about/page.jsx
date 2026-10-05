@@ -1,0 +1,1 @@
+export default function About(){return <h1>Next deep link works.</h1>}
