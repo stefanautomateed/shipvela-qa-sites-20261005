@@ -1,0 +1,11 @@
+{
+  "name": "shipvela-qa",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "astro build"
+  },
+  "dependencies": {
+    "astro": "6.2.0"
+  }
+}
