@@ -1,0 +1,10 @@
+version: 1
+frontend:
+  phases:
+    build:
+      commands:
+        - node -e "console.error('SHIPVELA_QA_EXPECTED_BUILD_FAILURE: intentional failure to verify logs and recovery'); process.exit(1)"
+  artifacts:
+    baseDirectory: .
+    files:
+      - '**/*'
